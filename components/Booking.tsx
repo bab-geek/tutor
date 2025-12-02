@@ -70,7 +70,7 @@ export const Booking: React.FC = () => {
             Book Home Tuition
           </h2>
           <p className="mt-4 text-lg text-slate-600">
-            Personalized Mathematics and Physics lessons (IGCSE, A Level, IB) delivered at your home.
+            Personalized Mathematics and Physics lessons (IGCSE, A Level, IB) delivered at your home. <strong>Prof Alexander Juma is available on Weekdays from 5 PM onwards.</strong>
           </p>
           
           <div className="mt-8 p-6 bg-white rounded-lg border-l-4 border-brand-primary shadow-sm">
@@ -80,7 +80,7 @@ export const Booking: React.FC = () => {
              <ul className="space-y-3 text-slate-600">
                 <li className="flex items-start">
                    <Check className="w-5 h-5 mr-2 text-brand-primary flex-shrink-0"/>
-                   <span><strong>Weekdays:</strong> Evenings from 5:00 PM</span>
+                   <span><strong>Weekdays:</strong> Available from 5 PM onwards</span>
                 </li>
                 <li className="flex items-start">
                    <Check className="w-5 h-5 mr-2 text-brand-primary flex-shrink-0"/>
