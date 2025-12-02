@@ -21,7 +21,7 @@ export const Navbar: React.FC<NavbarProps> = ({ currentView, setView }) => {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center cursor-pointer" onClick={() => setView('HOME')}>
             <GraduationCap className="h-8 w-8 text-emerald-100 mr-2" />
-            <span className="font-bold text-xl tracking-tight">Prof<span className="text-emerald-100">Alexander</span></span>
+            <span className="font-bold text-xl tracking-tight">Prof <span className="text-emerald-100">Alexander Juma</span></span>
           </div>
           
           <div className="hidden md:block">

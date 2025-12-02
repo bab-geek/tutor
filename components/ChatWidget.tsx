@@ -6,7 +6,7 @@ import { sendMessageToAI } from '../services/geminiService';
 export const ChatWidget: React.FC = () => {
     const [isOpen, setIsOpen] = useState(false);
     const [messages, setMessages] = useState<ChatMessage[]>([
-        { role: 'model', text: 'Hello! I am Prof Alexander\'s assistant. I can help with IGCSE, A Level, and IB tuition queries.' }
+        { role: 'model', text: 'Hello! I am Prof Alexander Juma\'s assistant. I can help with IGCSE, A Level, and IB tuition queries.' }
     ]);
     const [input, setInput] = useState('');
     const [isLoading, setIsLoading] = useState(false);
@@ -51,7 +51,7 @@ export const ChatWidget: React.FC = () => {
                     <div className="bg-brand-primary p-4 flex items-center text-white">
                         <Sparkles className="h-5 w-5 text-emerald-100 mr-2" />
                         <div>
-                            <h3 className="font-bold text-sm">Prof Alexander</h3>
+                            <h3 className="font-bold text-sm">Prof Alexander Juma</h3>
                             <p className="text-xs text-emerald-100">IGCSE, A Level & IB</p>
                         </div>
                     </div>

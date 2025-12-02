@@ -30,7 +30,7 @@ export const Hero: React.FC<HeroProps> = ({ setView }) => {
                   <span className="block text-brand-primary xl:inline">IGCSE, A Level & IB</span>
                 </h1>
                 <p className="mt-3 text-base text-slate-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-                  Premium private home tuition by <strong>Prof Alexander</strong>. Expert Mathematics and Physics guidance delivered directly to your doorstep.
+                  Premium private home tuition by <strong>Prof Alexander Juma</strong>. Expert Mathematics and Physics guidance delivered directly to your doorstep.
                 </p>
                 <p className="mt-4 text-sm text-brand-primary font-bold uppercase tracking-wide flex items-center justify-center lg:justify-start">
                    <Calendar className="w-4 h-4 mr-2"/> Available Weekends & School Holidays
@@ -76,7 +76,7 @@ export const Hero: React.FC<HeroProps> = ({ setView }) => {
           <div className="lg:text-center">
             <p className="text-base text-brand-primary font-bold tracking-wide uppercase">Your Private Tutor</p>
             <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-slate-900 sm:text-4xl">
-              Prof Alexander
+              Prof Alexander Juma
             </h3>
             <p className="mt-4 max-w-2xl text-xl text-slate-600 lg:mx-auto">
               "I specialize in the <strong>IGCSE, A Level, and IB curricula</strong>. My approach is disciplined yet encouraging, focusing on simplifying complex concepts in Mathematics and Physics to ensure academic success."

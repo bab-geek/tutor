@@ -9,9 +9,9 @@ export const Footer: React.FC = () => {
           
           {/* Brand Column */}
           <div className="flex flex-col items-center md:items-start flex-1">
-            <h3 className="text-white text-lg font-bold mb-4">Prof Alexander Tutor</h3>
+            <h3 className="text-white text-lg font-bold mb-4">Prof Alexander Juma Tutor</h3>
             <p className="text-sm max-w-xs leading-relaxed text-emerald-100/70">
-              Prof Alexander provides expert IGCSE Mathematics and Physics tuition at the comfort of your home.
+              Prof Alexander Juma provides expert IGCSE Mathematics and Physics tuition at the comfort of your home.
             </p>
           </div>
 
