@@ -61,11 +61,11 @@ export const Hero: React.FC<HeroProps> = ({ setView }) => {
           </div>
         </div>
         <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
-          {/* Bright, International student context image */}
+          {/* High-resolution Academic Image */}
           <img
             className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
-            src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80"
-            alt="Indian Students Studying Group"
+            src="https://images.unsplash.com/photo-1606326608606-aa0b62935f2b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80"
+            alt="Students Studying in Library"
           />
         </div>
       </div>
