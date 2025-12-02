@@ -11,7 +11,7 @@ export const Booking: React.FC = () => {
     subject: 'IGCSE Mathematics',
     location: '',
     date: '',
-    time: 'Morning (9am - 12pm)'
+    time: 'Weekday Evening (From 5pm)'
   });
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
@@ -52,7 +52,7 @@ export const Booking: React.FC = () => {
         <button 
           onClick={() => {
              setBookingStatus('idle');
-             setFormData({ name: '', phone: '', subject: 'IGCSE Mathematics', location: '', date: '', time: 'Morning (9am - 12pm)' });
+             setFormData({ name: '', phone: '', subject: 'IGCSE Mathematics', location: '', date: '', time: 'Weekday Evening (From 5pm)' });
           }}
           className="mt-8 inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-brand-primary hover:bg-brand-dark"
         >
@@ -78,6 +78,10 @@ export const Booking: React.FC = () => {
                 <Clock className="w-5 h-5 mr-2 text-brand-primary"/> Availability
              </h3>
              <ul className="space-y-3 text-slate-600">
+                <li className="flex items-start">
+                   <Check className="w-5 h-5 mr-2 text-brand-primary flex-shrink-0"/>
+                   <span><strong>Weekdays:</strong> Evenings from 5:00 PM</span>
+                </li>
                 <li className="flex items-start">
                    <Check className="w-5 h-5 mr-2 text-brand-primary flex-shrink-0"/>
                    <span><strong>Weekends:</strong> Saturdays & Sundays</span>
@@ -199,9 +203,10 @@ export const Booking: React.FC = () => {
                          onChange={handleChange}
                          className="focus:ring-brand-primary focus:border-brand-primary block w-full pl-10 sm:text-sm border-gray-300 rounded-md p-3 border bg-slate-50"
                        >
-                           <option value="Morning (9am - 12pm)">Morning (9am - 12pm)</option>
-                           <option value="Afternoon (1pm - 4pm)">Afternoon (1pm - 4pm)</option>
-                           <option value="Evening (4pm - 7pm)">Evening (4pm - 7pm)</option>
+                           <option value="Weekday Evening (From 5pm)">Weekday Evening (From 5pm)</option>
+                           <option value="Weekend Morning (9am - 12pm)">Weekend Morning (9am - 12pm)</option>
+                           <option value="Weekend Afternoon (1pm - 4pm)">Weekend Afternoon (1pm - 4pm)</option>
+                           <option value="Weekend Evening (4pm - 7pm)">Weekend Evening (4pm - 7pm)</option>
                        </select>
                    </div>
                </div>

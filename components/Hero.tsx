@@ -33,7 +33,7 @@ export const Hero: React.FC<HeroProps> = ({ setView }) => {
                   Premium private home tuition by <strong>Prof Alexander Juma</strong>. Expert Mathematics and Physics guidance delivered directly to your doorstep.
                 </p>
                 <p className="mt-4 text-sm text-brand-primary font-bold uppercase tracking-wide flex items-center justify-center lg:justify-start">
-                   <Calendar className="w-4 h-4 mr-2"/> Available Weekends & School Holidays
+                   <Calendar className="w-4 h-4 mr-2"/> Available Weekdays (5pm+), Weekends & Holidays
                 </p>
                 <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                   <div className="rounded-md shadow">
@@ -114,10 +114,10 @@ export const Hero: React.FC<HeroProps> = ({ setView }) => {
                   <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-brand-primary text-white">
                     <Calendar className="h-6 w-6" aria-hidden="true" />
                   </div>
-                  <p className="ml-16 text-lg leading-6 font-bold text-slate-900">Weekend & Holiday Focus</p>
+                  <p className="ml-16 text-lg leading-6 font-bold text-slate-900">Flexible Schedule</p>
                 </dt>
                 <dd className="mt-2 ml-16 text-base text-slate-500">
-                  Sessions are exclusively scheduled for Saturdays, Sundays, and School Holidays.
+                  Available Weekdays from 5pm, Weekends, and full-time during School Holidays.
                 </dd>
               </div>
 
@@ -142,7 +142,7 @@ export const Hero: React.FC<HeroProps> = ({ setView }) => {
          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between text-white">
              <div>
                 <h3 className="text-2xl font-bold text-white">Unlock your academic potential.</h3>
-                <p className="opacity-90 mt-1 text-emerald-50">Book your slot for the upcoming Weekend or Holiday session.</p>
+                <p className="opacity-90 mt-1 text-emerald-50">Book your slot for the upcoming Weekend or Weekday Evening session.</p>
              </div>
              <button onClick={() => setView('BOOKING')} className="mt-6 md:mt-0 bg-brand-gold text-brand-dark font-bold py-3 px-8 rounded-full shadow-lg hover:bg-yellow-400 transition-colors flex items-center ring-2 ring-brand-gold/50">
                  Check Availability <ArrowRight size={18} className="ml-2"/>

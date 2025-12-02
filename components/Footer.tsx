@@ -19,7 +19,7 @@ export const Footer: React.FC = () => {
           <div className="flex flex-col items-center md:items-start flex-1">
              <h3 className="text-white text-lg font-bold mb-4">Services</h3>
              <ul className="space-y-3 text-sm text-emerald-100/70">
-                <li>Home Tuition (Weekends)</li>
+                <li>Home Tuition (Evenings & Weekends)</li>
                 <li>Holiday Intensive Revision</li>
                 <li>IGCSE Exam Preparation</li>
              </ul>
