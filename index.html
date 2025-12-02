@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Nairobi IGCSE Math & Physics Tutor</title>
+    <title>Prof Alexander | IGCSE, A Level & IB Tutor</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <script>
@@ -12,11 +12,11 @@
           extend: {
             colors: {
               brand: {
-                blue: '#1e3a8a',   /* Royal Blue */
-                dark: '#0f172a',   /* Slate 900 */
-                gold: '#f59e0b',   /* Amber 500 */
-                light: '#f8fafc',  /* Slate 50 */
-                accent: '#0ea5e9', /* Sky Blue */
+                primary: '#059669', /* Emerald 600 - Vibrant Academic Green */
+                dark: '#064e3b',    /* Emerald 900 - Deep Green Text/BG */
+                gold: '#fbbf24',    /* Amber 400   - Bright Gold Accent */
+                light: '#ecfdf5',   /* Emerald 50  - Very Light Mint Background */
+                accent: '#34d399',  /* Emerald 400 - Brighter Green Accent */
               }
             },
             fontFamily: {
@@ -39,9 +39,19 @@
           scrollbar-width: none;
       }
     </style>
-  </head>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.30.0",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.555.0"
+  }
+}
+</script>
+</head>
   <body class="bg-brand-light text-slate-900">
     <div id="root"></div>
-    <script type="module" src="/index.tsx"></script>
-</body>
+  </body>
 </html>
